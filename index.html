@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./script.js"></script>
+    <title>Guessing Game</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="top">
+        <div class="space">
+          <button id="reset">Again</button>
+          <span id="guess_range">(between 1-50)</span>
+        </div>
+        <div id="mystery_number_container">
+          <span id="mystery_number">?</span>
+          <div id="line_through"></div>
+        </div>
+      </div>
+      <div id="bottom">
+        <div id="input_container">
+          <input id="input" type="number" />
+          <button id="check">Check</button>
+        </div>
+        <div id="game_state">
+          <h2 id="message">Start Guessing...</h2>
+          <h2>🕹️ Score: <span id="score">10</span></h2>
+          <h2>💯 Highscore: <span id="highscore">0</span></h2>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
